@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/main"
+    android:background="#CDDC39"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="xID"
+        android:layout_width="wrap_content"
+        android:id="@+id/xID"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="yID"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/xID"
+        android:visibility="invisible"
+        android:id="@+id/yID"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="zID"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/yID"
+        android:visibility="invisible"
+        android:id="@+id/zID"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="Haz un 4"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/zID"
+        android:textSize="120px"
+        android:id="@+id/label"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Regresa a Menu"
+        android:layout_below="@id/label"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
