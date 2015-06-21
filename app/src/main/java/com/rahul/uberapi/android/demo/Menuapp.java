@@ -62,7 +62,7 @@ public class Menuapp extends ActionBarActivity {
             public void onClick(View v) {
 
                 //startNewActivity(Menuapp.this, "mx.mash.lustrador");
-                startNewActivity(Menuapp.this, "appinventor.ai_ivandeleon.Drunk");
+                startNewActivity(Menuapp.this, "appinventor.ai_e_ivandeleon.Drunk");
 
                 /*
                 Intent mIntent = new Intent(Menuapp.this, Game.class);
